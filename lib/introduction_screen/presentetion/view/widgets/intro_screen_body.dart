@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:splash_project/table/presentetion/view/my_table.dart';
 import 'package:splash_project/testdart.dart';
 import 'package:splash_project/utils/assets.dart';
 
@@ -9,7 +10,7 @@ class IntroScreenBody extends StatelessWidget {
   void _onIntroEnd(context) {
     // Navigate to your home page or any other route when the intro is finished.
     Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => const TestDart()),
+      MaterialPageRoute(builder: (_) => const MyTaple()),
     );
   }
 
